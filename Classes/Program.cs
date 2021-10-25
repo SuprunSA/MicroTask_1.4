@@ -22,11 +22,11 @@ namespace Classes
                 }
             } 
         }
-        /*public int Foo(DateTime time)
+        public int Foo()
         {
-            return (int)time.Second;
-        } два метода с одинаковыми принимаемыми значениями, компилятор ругается
-*/
+            return 1;
+        }
+
         public abstract void Foo(DateTime time);
     }
 
@@ -60,6 +60,7 @@ namespace Classes
         {
 
         }
+
         private void Bar(int size)
         {
 
